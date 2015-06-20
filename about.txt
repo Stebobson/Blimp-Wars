@@ -5,8 +5,9 @@ modes:
   campaign (battle sets of blimps based on a storyline, with bosses scattered in)
   waves (enemies come in waves, with bosses at set points)
   multiplayer? (teams/free for all, battling)
-stats system (to be improved): health and safety (defense); quality of material (health); number of engineers (regeneration); engine power (speed); firepower (damage); inflation (size)
+stats system (to be improved): health and safety (defense); quality of material (health); number of engineers (regeneration); engine power (horizontal speed); inflation (vertical speed + size); firepower (damage)
 blimps have unspecified weak points; need to be discovered manually
 bosses:
   size changing
   flamethrowers (extra damage)
+enemies:
