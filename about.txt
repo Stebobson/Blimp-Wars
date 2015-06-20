@@ -11,3 +11,6 @@ bosses:
   size changing
   flamethrowers (extra damage)
 enemies:
+  boss blimps
+  planes
+  birds
