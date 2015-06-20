@@ -1,0 +1,4 @@
+uses Unity and C#
+2D
+about controlling either a single blimp or an army of blimps (perhaps two different game modes?)
+stats system (to be improved): health and safety (defense); quality of material (health); number of engineers (regeneration); engine power (speed); firepower (damage)
