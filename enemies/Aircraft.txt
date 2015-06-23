@@ -1,1 +1,5 @@
-
+flies moderately quickly from the right side of the screen towards the left, visibly looping around in the background after passing the player, then returning to the right of the screen
+when passing the player, has a chance of colliding with the player instead, dealing damage and being killed
+shoots low-damaging bullets to their front at a moderately high rate
+has low health and low defense
+is especially damaged by birds
