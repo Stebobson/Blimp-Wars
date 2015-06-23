@@ -16,5 +16,3 @@ enemies:
   planes (fire low-damage bullets; circle round as they pass to make killing them worth your time; chance of flying into you; low health)
   birds (fly towards you, do damage if they hit a vehicle (especially planes) scared by shooting; low health)
   hot air balloons (use random weapons (metronome); high health; slow)
-
-Yes.
