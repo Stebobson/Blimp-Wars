@@ -16,16 +16,16 @@ namespace AssemblyCSharp
 			if (damageTypes.ContainsKey (id))
 				return false;
 
-			damageTypes.Keys [id] = name;
+			damageTypes.Add(id, name);
 			return true;
 		}
 
 		public String getName(int id) {
-			return damageTypes.ContainsKey(id)? damageTypes.Keys[id]: null;
+			return damageTypes.ContainsKey(id)? damageTypes[id]: null;
 		}
 
 		public bool deleteType(int id) {
-			if (damageTypes.ContainsKey) {
+			if (damageTypes.ContainsKey(id)) {
 
 				damageTypes.Remove(id);
 				return true;
