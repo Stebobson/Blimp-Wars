@@ -34,6 +34,19 @@ namespace AssemblyCSharp
 
 			return stats.ContainsKey(name)? stats[name]: -1;
 		}
+
+		/**
+		 * sets the specified stat to the value
+		 * returns false if the stat does not exist
+		 */
+		public bool setValue(String name, int value) {
+
+			if (!stats.ContainsKey (name))
+				return false;
+
+			stats [name] = value;
+			return true;
+		}
 		
 		public bool deleteType(String name) {
 
