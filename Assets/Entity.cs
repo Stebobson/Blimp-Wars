@@ -113,5 +113,18 @@ namespace AssemblyCSharp
 		{
 			return id.ToString ();
 		}
+
+		// Use this for initialization
+		void Start () {
+
+			this ();
+		}
+		
+		// Update is called once per frame
+		void Update () {
+
+			if(health == 0)
+				this.sendMessage("data die")
+		}
 	}
 }
