@@ -104,6 +104,11 @@ namespace AssemblyCSharp
 			}
 		}
 
+		public Stats getStats () {
+
+			return stats;
+		}
+
 		public override string ToString ()
 		{
 			return id.ToString ();
